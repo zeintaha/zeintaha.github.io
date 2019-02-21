@@ -175,8 +175,8 @@ function OnCollisionEnter (_other : Collision)
 then, implemented a rotating Obstacle, a gearwheel/mill, that will interact with the ball. For that he didn’t use any Script. He only used the components integrated in unity.
 A cylinder was created which was the anchor and the rotating pivot of the whole gear and 4 arms made out of remodeled cubes. The movement of this mill, was possible through unity’s function of motor, after you anchored the arms on the cylinder and blocked a few axis, it was possible to set the velocity(speed) and the force of this motor.
 
-	Personal reflections:
-	
+Personal reflections:
+
 Taha: As I have no prior before about using Unity, this is very excited assignment, as it boost my skills in two weeks, to be able to create prototype for a solution i need, looking forward for more assignments :)
 
 
