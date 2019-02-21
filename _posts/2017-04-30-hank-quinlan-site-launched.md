@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First assignment Part1"
-date: 2019-02-21
+date: 2019-02-14
 ---
 
 For our first assignment in GMD1 we had about 2 weeks to form our groups, come up with an idea, and implement it with the help of Unity. Our group is formed of Gabriel Baciu, Mihai Barbus and Taha Zein. Everyone had to come up with an idea and some implementation of it until Friday 08/02-19. Eventually we chose Mihai Barbus’s idea, a pinball game, inspired of course from one of our first PC games ever played. 
