@@ -176,11 +176,12 @@ then, implemented a rotating Obstacle, a gearwheel/mill, that will interact with
 A cylinder was created which was the anchor and the rotating pivot of the whole gear and 4 arms made out of remodeled cubes. The movement of this mill, was possible through unity’s function of motor, after you anchored the arms on the cylinder and blocked a few axis, it was possible to set the velocity(speed) and the force of this motor.
 
 	Personal reflections:
-Taha:
-As I have no prior before about using Unity, this is very excited assignment, as it boost my skills in two weeks, to be able to create prototype for a solution i need, looking forward for more assignments :)
+Taha: As I have no prior before about using Unity, this is very excited assignment, as it boost my skills in two weeks, to be able to create prototype for a solution i need, looking forward for more assignments :)
+
 
 Gabriel:
-	I think this project was a nice and easy way to learn and get used to unity, I like the idea of problem base learning and learning trough practice. I think our team had a good connection established trough communication at every stage of the development of the project.
+ I think this project was a nice and easy way to learn and get used to unity, I like the idea of problem base learning and learning trough practice. I think our team had a good connection established trough communication at every stage of the development of the project.
+
 
 Mihai: Nice experience with learning by doing, achieved knowledge related to Unity assets like Scene, Game Object, Components, Materials, Physical Materials and Basic Scripting in C#. The most challenging part was Launcher Trigger and Launcher Script where we needed to use UnityEngine.UI, and Input setup. Good group teamwork and good communication achieved with help of Unity Collaborate and Slack
 
