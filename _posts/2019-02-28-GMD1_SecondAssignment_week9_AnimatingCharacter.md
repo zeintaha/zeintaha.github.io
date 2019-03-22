@@ -4,7 +4,7 @@ title: "Game Development1 2nd assignment week9 AnimatingCharacter"
 date: 2019-02-28
 ---
 
-<img src="/images/second/main.png">
+<img src="../blog/images/second/main.png">
 
 For this second assignment our group made a scene, containing an animated object, sounds, custom skybox and multiple sources of light.
     This assignment helped us develop or improve the knowledge regarding
