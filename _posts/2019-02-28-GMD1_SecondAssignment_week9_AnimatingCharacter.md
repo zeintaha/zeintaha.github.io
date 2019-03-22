@@ -8,7 +8,7 @@ date: 2019-02-28
 
 For this second assignment our group made a scene, containing an animated object, sounds, custom skybox and multiple sources of light.
     This assignment helped us develop or improve the knowledge regarding
-    <ul>
+
 <li>Basic game object animation</li>
 <li>Character animation</li>
 <li>Shaders (which were one of the hardest things to comprehend)</li>
@@ -19,8 +19,6 @@ For this second assignment our group made a scene, containing an animated object
 <li>Particles </li>
 <li>Importing audio into the game</li>
 
- 
-</ul>
 
 The group made this scene as an exercise to try and comprehend the new techniques presented to us in class, you just walk around on the plane surface try to observe the difference between certain way of lightning and how the particle system works (we tried to use snow particles for this).
  
