@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First assignment Part1"
+title: "Game Development1 First assignment week7 BasicKnowledge"
 date: 2019-02-14
 ---
 
