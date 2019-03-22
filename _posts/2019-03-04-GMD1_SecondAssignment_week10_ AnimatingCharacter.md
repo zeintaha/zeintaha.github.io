@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Game Development1 1st assignment week8 BasicKnowledge"
-date: 2019-02-21
+title: "Game Development1 2nd assignment week10 AnimatingCharacter"
+date: 2019-03-04
 ---
 
 In week 8, we started implementing the game even more.
