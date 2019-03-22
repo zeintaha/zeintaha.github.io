@@ -54,9 +54,9 @@ public class knight_controller : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
     }
-    
-    // Update is called once per frame
-    void Update ()
+	
+	// Update is called once per frame
+	void Update ()
     {
         Movement();
         GetInpuut();
