@@ -13,4 +13,24 @@ For this idea we research further use a YouTube Unity Racing Game Development Tu
 Group worked on game design and decide we will have a number of 4 scenes:  Menu, Options, Level1, Tank. Developing scenes assign for each team member Taha work on Menu and Option scene, Mihai game Level1 scene and Gabriel game Tank scene    	
 
 FIRST scene(level1)(Mihai)
+
 <img src="../../../images/third/road.png">
+
+In this scene, we used some Sprites for the “enemy” cars, for the to spawn and come into a certain direction we used the following script which sets their delay as well 
+
+<img src="../../../images/third/script1.png">
+
+In order for the “hero” car to move, we used a function called RigidBody2D to give it some Physics or, more correct take some physics of off it. We did that so the car won’t be affected by the gravitation pull.
+
+<img src="../../../images/third/rigidbody.png">
+
+Second scene(tank/GOD mode)(Gabriel)
+
+<img src="../../../images/third/road2.png">
+
+We made this scene for fun and giggles basically. The tank uses the same movement script and properties as the car from the previous scene. The only addition is that, in this scene the tank, obviously shoots projectiles continuously, at a delay of .5 ms.
+Gabriel drew a separate sprite for the tank projectile and scripted it in order to move.
+The projectile is a sprite, has a box collider and a RigidBody2D property. We’ve set the gravity to 0 again for the same reasons as the car and the tank. We then, set an empty game object as a child to the car and put the projectile into the game object as a prefab. The GameObject acted as a spawner for the bullets using this script.
+
+<img src="../../../images/third/script2.png">
+
