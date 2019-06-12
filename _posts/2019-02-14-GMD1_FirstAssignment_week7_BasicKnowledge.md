@@ -25,12 +25,12 @@ Mihai was in charge of the implementation of:
 For each game object, material assets were created and added to Prefabs to fulfill one of the project requirements
 Rigid body component was added for the ballPrefab and the Flippers, moreover, a hinge joint was created in order to set anchor to the Flippers
 Mihai also did the script for Flippers and added some gravity through the option available in the project settings/physics.
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class FlipperScript : MonoBehaviour
-{
+ using System.Collections;
+ using System.Collections.Generic;
+ using UnityEngine;
+ public class FlipperScript : MonoBehaviour
+ {
     public float restPosition = 0f;
     public float pressedPosition = 45f;
     public float hitStrenght = 10000f;
@@ -63,7 +63,7 @@ public class FlipperScript : MonoBehaviour
         hinge.spring = spring;
         hinge.useLimits = true;
     }
-}
+ }
 
 me as Taha was in charge of making the blog as well as the enemies(our collectibles and scoring system)
 Gabriel was in charge of making the bouncy obstacles that the ball would hit and reach certain collectibles, making the game as “authentic” as possible and correcting some of the grammatical errors in everyone’s report before uploading it to the blog.
