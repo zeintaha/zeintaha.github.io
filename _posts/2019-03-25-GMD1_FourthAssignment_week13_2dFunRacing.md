@@ -3,45 +3,42 @@ layout: post
 title: "Game Development1 4th assignment week13 2D FunRacing"
 date: 2019-03-25
 ---
+Main requirements :
+-	Create a short, replayable game with a highscore system.
+-	Intermediate gameplay scripting concepts where applicable.
+-	At least two scenes, where gameplay data is persisted between scenes (e.g. character select)
+-	An in-game pause menu
+-	Persistence of data between gameplay sessions (e.g. progress, profiles, custom settings) using PlayerPrefs
+-	A configuration-file (e.g. in JSON) to configure the game without having to rebuild it (use the 'Resources' folder)
+-	The use of coroutines in a meaningful way
+-	Event delegates to decouple parts of your code
+-	Scriptable objects that hold game related data
+Starting from the project requirements presented above, developer team choose to upgrade and further develop FUN Racing , which is the previous 2d mobile game project for third GMD workshop assignment. 
+Task was divided in fallowing manner:
+-	Taha - persistence of data between scene(scoring system),JSON 
+-	Mihai - two main game scene -Level1 & Level2, in game pause menu 
+-	Gabriel - use coroutines	
+Second game scene(level2)(Mihai)
+For second scene, I have used previously constructed Level1 scene and just modify some parameters like speed for road movement, speed of enemy spawn and change sprite for car in order to differentiate from first game scene
+For all scenes I have added pause buttons, which all accessed Pause() method from gameManager script.
 
-Mihai continued work on first Scene(level1)
+<img src="../../../images/fourth/script1.jpg">
 
-After this we proceeded and added a script to the car. The script has made possible the detection of the collision between the player and the enemy. On impact, a sound would pe played through the method “void OnCollisionEnter2D(Collision2D col)” and the game is terminated. Accelerometer is a method specific for the mobile games, the car uses the accelerometer sensors of the phone in order to move, we locked the movement only to horizontal movement.
+For enhance product I added one Audio Manager with three audio source sounds with behavior mainly controlled in carController script
 
-<img src="../../../images/third/script4.jpg">
+<img src="../../../images/fourth/script2.jpg">
 
-Enemy cars
-
-<img src="../../../images/third/enemy_cars.jpg">
-
-Every “enemy” car sprites are added to Prefab folder and each one have a script attached to it, this script sets the speed and the direction so they are heading towards the player
-
-
-<img src="../../../images/third/script5.jpg">
-
-This two parts were created and implemented by Mihai
-Gabriel continue work on his task Tank scene by adding scripts and assets for tank and projectile
-However this script didn’t make the projectile actually move, it just spawn it, so we applied a script to the actual projectile
-
-<img src="../../../images/third/script6.jpg">
-
-Can’t really die, only if you are trying to
-
-Main scene/menu scene(Taha)
-
-<img src="../../../images/third/main_menue.jpg">
-
-<img src="../../../images/third/game_controls.jpg">
-
-Both scenes are created using Inkscape and have active buttons controlled through uiManager script methods like Menu() and Option() where is used UnityEngine.SceneManagement and specific scene is loaded when this methods are called with buttons
-
-<img src="../../../images/third/script7.jpg">
+Coroutines(tank/GOD mode)(Gabriel)
+I use coroutine here in the example below in order to separate the shooting times from frame time and avoid shooting projectile at every frame, so by creating an IEnumurator I can define the coroutine method which setup the time for the projectile to shoot, and then in update method we call the coroutine
 
 
-All buttons in all scene use methods like Play(), Pause() or TankMode() from this uiManager.
+<img src="../../../images/fourth/script3.jpg">
 
-Taha finish the animation for police car by using animation and animator component showed below:
+Scoring system using JSON format (Taha)
+In order to save progress data through 2 main playable scene I have used PlayerPref class which is provided by unity engine, I  create a public class Save as a model which has a public integer to hold the score from the current level, and that occurs only when the current level score is bigger than the existing top score, and then save it to MySettings string.
+Regarding to load method, it is reading date from my settings and keep it in the top score variable in order to compare it with current score.
+Booth methods are shown below:
 
-<img src="../../../images/third/animation.jpg">
+<img src="../../../images/fourth/script4.jpg">
 
-<img src="../../../images/third/animator.jpg">
+<img src="../../../images/fourth/script5.jpg">
