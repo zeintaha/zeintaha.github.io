@@ -18,7 +18,7 @@ FIRST scene(level1)(Mihai)
 
 In this scene, we used some Sprites for the “enemy” cars, for the to spawn and come into a certain direction we used the following script which sets their delay as well 
 
-<img src="../../../images/third/script1.png">
+<img src="../../../images/third/s1.png">
 
 In order for the “hero” car to move, we used a function called RigidBody2D to give it some Physics or, more correct take some physics of off it. We did that so the car won’t be affected by the gravitation pull.
 
