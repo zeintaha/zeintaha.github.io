@@ -4,7 +4,8 @@ title: "Game Development1 1st assignment week7 BasicKnowledge"
 date: 2019-02-14
 ---
 
-For our first assignment in GMD1 we had about 2 weeks to form our groups, come up with an idea, and implement it with the help of Unity. Our group is formed of Gabriel Baciu, Mihai Barbus and Taha Zein. Everyone had to come up with an idea and some implementation of it until Friday 08/02-19. Eventually we chose Mihai Barbus’s idea, a pinball game, inspired of course from one of our first PC games ever played. 
+For our first assignment in GMD1 we had about 2 weeks to form our groups, come up with an idea, and implement it with the help of Unity. Our group is formed of Gabriel Baciu, Mihai Barbus and Taha Zein. Everyone had to come up with an idea and some implementation of it until Friday 08/02-19. Eventually we chose Mihai Barbus’s idea, a pinball game, inspired of course from one of our first PC games ever played. For this project we get inspired and fallow the Nejo FTW Youtube tutorial series
+
 For this assignment, certain requirements were set, we had to make use of:
 -	Triggers
 -	Colliders
