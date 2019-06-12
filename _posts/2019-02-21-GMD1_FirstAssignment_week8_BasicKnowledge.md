@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Game Development1 1st assignment week8 BasicKnowledge"
 date: 2019-02-21
@@ -6,7 +6,7 @@ date: 2019-02-21
 
 In week 8, we started implementing the game even more.
 Mihai added Icy material as physical material to the ball and table.
-Created and implemented launcher and the launcher’s trigger. Imported audio assets from Assets store and Added PowerSlider Canvas 
+Created and implemented launcher and the launcher’s trigger. Imported audio assets from Assets store and Added PowerSlider Canvas.
 
 Here is the code for it:
 using System.Collections;
