@@ -9,6 +9,6 @@ Mihai and Gabriel continued work on first and second game scene, and start the t
 Taha finish the animation for police car by using animation and animator component showed below:
 
 
-<img src="../../../images/third/animation.jpg">
+<img src="../../../images/fourth/animation.jpg">
 
-<img src="../../../images/third/animator.jpg">
+<img src="../../../images/fourth/animator.jpg">
