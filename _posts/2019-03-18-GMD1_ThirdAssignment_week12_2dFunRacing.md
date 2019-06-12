@@ -42,6 +42,6 @@ All buttons in all scene use methods like Play(), Pause() or TankMode() from thi
 
 Taha finish the animation for police car by using animation and animator component showed below:
 
-<img src="../../../images/third/animatoion.jpg">
+<img src="../../../images/third/animation.jpg">
 
 <img src="../../../images/third/animator.jpg">
