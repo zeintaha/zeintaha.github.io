@@ -34,3 +34,9 @@ The projectile is a sprite, has a box collider and a RigidBody2D property. We’
 
 <img src="../../../images/third/script2.png">
 
+The road movement was implemented  by Taha, as well as the ui manager and menus
+Road movement script: 
+
+<img src="../../../images/third/script3.png">
+
+And Taha continued by starting work with animation for police car
