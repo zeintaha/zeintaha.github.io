@@ -13,6 +13,7 @@ For this assignment, certain requirements were set, we had to make use of:
 -	Raycasting
 -	Prefabs
 -	Assets from the Asset Store
+
 Basic scripting (e.g. user input, instantiating game objects, etc.)
 In week 7, all our team members researched and learned how to get around Unity(still a new tool to us), through different tutorials and resources.
 Mihai was in charge of the implementation of:
