@@ -38,6 +38,8 @@ Design wise developers agreed for 4 main scene: a menu scene and three main game
 <img src="../../../images/fifth/1.jpg">
 
 Menu scene presented above containing application name and in game menu with access to main game scenes and exit option.
+
+
 First game scene is containing application name, one Periodic table of elements and in game menu with access to menu scenes and exit option. The first game scene is accessible from Menu Scene and is presented in figure 2 below
 
 
