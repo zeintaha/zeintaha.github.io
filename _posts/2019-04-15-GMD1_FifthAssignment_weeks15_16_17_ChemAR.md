@@ -41,15 +41,17 @@ Menu scene presented above containing application name and in game menu with acc
 
 
 
-First game scene is containing application name, one Periodic table of elements and in game menu with access to menu scenes and exit option. The first game scene is accessible from Menu Scene and is presented in figure 2 below
+First game scene is containing application name, one Periodic table of elements and in game menu with access to menu scenes and exit option. The first game scene is accessible from Menu Scene and is presented below
 
 <img src="../../../images/fifth/2.jpg">
 
-Second game scene is containing application name, list of elements and game menu with access to menu scenes and exit option. Second game scene is presented below in 
+
+Second game scene is containing application name, list of elements and game menu with access to menu scenes and exit option. Second game scene is presented below 
 
 <img src="../../../images/fifth/3.jpg">
 
-Third game scene is presenting the quiz game with application name, question and reply versions, score and  game menu with access to menu scenes and exit option, that is presented below in figure 4
+
+Third game scene is presenting the quiz game with application name, question and reply versions, score and  game menu with access to menu scenes and exit option, that is presented below 
 
 <img src="../../../images/fifth/4.jpg">
 
