@@ -60,7 +60,10 @@ First game scene, presented in figure 2, contain a detailed image with Periodic 
 Second game scene contain a list with all elements name and atomic number, and for each element is added an animated 3D model, and a direct connection or active link for extra information about element. We use data from Lenntech.com or Wikipedia.
 Third game scene contain a set of 10 questions related to elements, each question with two clickable reply version
 All 3D models assets are imported from Unity Asset market as a Science Lab paid asset, that was perfect for our project
+
+
 Technologies (Gabriel)
+
 For game implementation I have tested Vuforia and AR Core.
 Initially project supposed to be implemented with AR Core, the only one that have vertical detection, but in the end after analysis of all pros and cons, we settle for Vuforia, which is faster in plane detection and use image marker.
 The fun part begins from this moment with implementation, where we have a lot of compatibility challenges 
