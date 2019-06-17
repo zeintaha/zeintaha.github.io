@@ -54,3 +54,16 @@ Third game scene is presenting the quiz game with application name, question and
 <img src="../../../images/fifth/4.jpg">
 
 
+Scene content and assets(Mihai)
+
+First game scene, presented in figure 2, contain a detailed image with Periodic table of element with all 118 elements and specific detail for each element, like Symbol, Name, Atomic number and Atomic mass.
+Second game scene contain a list with all elements name and atomic number, and for each element is added an animated 3D model, and a direct connection or active link for extra information about element. We use data from Lenntech.com or Wikipedia.
+Third game scene contain a set of 10 questions related to elements, each question with two clickable reply version
+All 3D models assets are imported from Unity Asset market as a Science Lab paid asset, that was perfect for our project
+Technologies (Gabriel)
+For game implementation I have tested Vuforia and AR Core.
+Initially project supposed to be implemented with AR Core, the only one that have vertical detection, but in the end after analysis of all pros and cons, we settle for Vuforia, which is faster in plane detection and use image marker.
+The fun part begins from this moment with implementation, where we have a lot of compatibility challenges 
+
+
+
