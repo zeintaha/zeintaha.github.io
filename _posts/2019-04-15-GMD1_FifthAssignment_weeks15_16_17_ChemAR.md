@@ -57,21 +57,3 @@ For all scenes I have added pause buttons, which all accessed Pause() method fro
 
 <img src="../../../images/fifth/5.jpg">
 
-For enhance product I added one Audio Manager with three audio source sounds with behavior mainly controlled in carController script
-
-<img src="../../../images/fifth/6.jpg">
-
-Coroutines(tank/GOD mode)(Gabriel)
-I use coroutine here in the example below in order to separate the shooting times from frame time and avoid shooting projectile at every frame, so by creating an IEnumurator I can define the coroutine method which setup the time for the projectile to shoot, and then in update method we call the coroutine
-
-<img src="../../../images/fifth/7.jpg">
-
-Scoring system using JSON format (Taha)
-In order to save progress data through 2 main playable scene I have used PlayerPref class which is provided by unity engine, I  create a public class Save as a model which has a public integer to hold the score from the current level, and that occurs only when the current level score is bigger than the existing top score, and then save it to MySettings string.
-Regarding to load method, it is reading date from my settings and keep it in the top score variable in order to compare it with current score.
-Booth methods are shown below:
-
-<img src="../../../images/fifth/8.jpg">
-
-<img src="../../../images/fifth/9.jpg">
-
