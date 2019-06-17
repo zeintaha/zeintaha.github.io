@@ -36,6 +36,7 @@ Game scene(Taha)
 Design wise developers agreed for 4 main scene: a menu scene and three main game scenes
 
 <img src="../../../images/fifth/1.jpg">
+
 Menu scene presented above containing application name and in game menu with access to main game scenes and exit option.
 First game scene is containing application name, one Periodic table of elements and in game menu with access to menu scenes and exit option. The first game scene is accessible from Menu Scene and is presented in figure 2 below
 
@@ -43,13 +44,17 @@ First game scene is containing application name, one Periodic table of elements 
 Seconds scene 
 
 <img src="../../../images/fifth/2.jpg">
+
 Second game scene is containing application name, list of elements and game menu with access to menu scenes and exit option. Second game scene is presented below in 
 
 <img src="../../../images/fifth/3.jpg">
+
 Third game scene is presenting the quiz game with application name, question and reply versions, score and  game menu with access to menu scenes and exit option, that is presented below in figure 4
 
 <img src="../../../images/fifth/4.jpg">
+
 For all scenes I have added pause buttons, which all accessed Pause() method from gameManager script.
+
 <img src="../../../images/fifth/5.jpg">
 
 For enhance product I added one Audio Manager with three audio source sounds with behavior mainly controlled in carController script
@@ -57,6 +62,7 @@ For enhance product I added one Audio Manager with three audio source sounds wit
 
 Coroutines(tank/GOD mode)(Gabriel)
 I use coroutine here in the example below in order to separate the shooting times from frame time and avoid shooting projectile at every frame, so by creating an IEnumurator I can define the coroutine method which setup the time for the projectile to shoot, and then in update method we call the coroutine
+
 <img src="../../../images/fifth/7.jpg">
 
 Scoring system using JSON format (Taha)
