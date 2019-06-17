@@ -53,7 +53,4 @@ Third game scene is presenting the quiz game with application name, question and
 
 <img src="../../../images/fifth/4.jpg">
 
-For all scenes I have added pause buttons, which all accessed Pause() method from gameManager script.
-
-<img src="../../../images/fifth/5.jpg">
 
