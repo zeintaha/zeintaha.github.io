@@ -58,6 +58,7 @@ For all scenes I have added pause buttons, which all accessed Pause() method fro
 <img src="../../../images/fifth/5.jpg">
 
 For enhance product I added one Audio Manager with three audio source sounds with behavior mainly controlled in carController script
+
 <img src="../../../images/fifth/6.jpg">
 
 Coroutines(tank/GOD mode)(Gabriel)
